@@ -1,0 +1,32 @@
+.Container{
+  border: 2px solid black;
+  max-width: 520px;
+  min-height: 600px;
+  max-height: 600px;
+  overflow-y: scroll;
+  margin-top: 24px;
+  text-align: center;
+  padding: 16px;
+  
+}
+.headingTitle{
+  text-decoration: underline;
+}
+.btn-blue,.btn-blue:hover{
+ background-color: blue;
+ color: white;
+}
+
+ 
+.btn-red,.btn-red:hover{
+  background-color: red;
+  color: white;
+}
+
+.lists{
+  display: flex;
+  justify-content: space-between;
+}
+.list-style{
+  margin-top: 24px;
+}
